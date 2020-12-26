@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>My Web!</title>
+        <script src="java.js"></script>
+        <link rel="stylesheet" href="styling.css">
+    </head>
+
+    <body>
+        <div id="calculator">
+            <div id="cal_screen">
+                <input type="text" name="scr" id="screen" disabled>
+            </div>
+            <div id="cal_buttons">
+                <button name="one" value="1" onclick="butt(1)" class="buttons" id="one">1</button>
+                <button name="two" value="2" onclick="butt(2)" class="buttons" id="two">2</button>
+                <button name="three" value="3" onclick="butt(3)" class="buttons" id="three">3</button>
+                <button name="four" value="4" onclick="butt(4)" class="buttons" id="four">4</button>
+                <button name="five" value="5" onclick="butt(5)" class="buttons" id="five">5</button>
+                <button name="six" value="6" onclick="butt(6)" class="buttons" id="six">6</button>
+                <button name="seven" value="7" onclick="butt(7)" class="buttons" id="seven">7</button>
+                <button name="eight" value="8" onclick="butt(8)" class="buttons" id="eight">8</button>
+                <button name="nine" value="9" onclick="butt(9)" class="buttons" id="nine">9</button>
+                <button name="zero" value="0" onclick="butt(0)" class="buttons" id="zero">0</button>
+                <button name="add" value="+" onclick="myfunc(1)" class="ope" id="add">+</button>
+                <button name="subtract" value="-" onclick="myfunc(2)" class="ope" id="sub">-</button>
+                <button name="multiply" value="*" onclick="myfunc(3)" class="ope" id="times">&times;</button>
+                <button name="divide" value="/" onclick="myfunc(4)" class="ope" id="divide">&divide;</button>
+                <button name="equals" value="=" onclick="show()" id="equals">=</button>
+                <button name="clear" value="ce" onclick="clearer1()" id="clear">CE</button>
+            </div>
+        </div>
+    </body>
+
+</html>
